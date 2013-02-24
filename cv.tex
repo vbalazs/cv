@@ -1,0 +1,151 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\setdescription{leftmargin=2cm,labelindent=1cm}
+
+\name{Varga Balázs} % Your name
+\address{Budapest \\ Dummy Str. 10.} % Your address
+\address{+3600~$\cdot$~000~$\cdot$~0000 \\
+\href{mailto:nospam@nospam.com}{nospam@nospam.com}} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Tanulmányok}
+
+{\bf Budapesti Műszaki és Gazdaságtudományi Egyetem, Budapest} \hfill {\em 2008 szeptembertől} \\
+Folyamatban lévő mérnök informatikus BSc képzés \smallskip \\
+Simonyi Károly Szakkollégium
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Tapasztalatok}
+
+\begin{rSubsection}{INBUSS Kft.}
+{2011 júliustól}{Szoftverfejlesztő}{Budapest}
+\item Feladat: szoftverek fejlesztése, tervezése, testreszabása, fejlesztői támogatás
+\item Projektek:
+	\begin{description}
+		\item[Negoma webshop] \hfill \\
+		Funkciók implementálása, hibajavítás, szkriptek írása, új funkciók tervezése \\
+		Használt technológiák: SVN, Tapestry 4, JavaEE, Hibernate, Perl, Javascript, JQuery, XML, Maven, PostgreSQL
+		\item[Sun OpenSSO] \hfill \\
+		Szoftvertámogatás, modulok fejlesztése, hibajavítása, felület testreszabása
+		\item[DIDb - Driver Identification Database] \hfill \\
+		Új funkciók fejlesztése, tervezése, tesztelése \\
+		Elvégeztem a komplex projekthierarchia teljes migrálását Antról Mavenre \\
+		Használt technológiák: SVN, JavaEE, Hibernate, Swing, Maven, Glassfish Metro, PostgreSQL \\
+	\end{description}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Simonyi Károly Szakkollégium}
+{2009 márciustól}{Szoftverfejlesztő, üzemeltető}{Budapest}
+\item Feladat: Projektmenedzsment, JavaEE alkalmazások fejlesztése és üzemeltetése
+\item 2009 PHP alkalmazások fejlesztése
+\item 2010-től Java, JavaEE ismeretek
+\item 2010-2012: KIR Fejlesztők és Üzemeltetők csoport vezetése
+\item 2012-től projektmenedzsment és fejlesztés
+\item 2013 február: részvétel segítőként az mloc.js nemzetközi large scale Javascript konferencián
+\item Projektek:
+	\begin{description}
+		\item[VIR Profil és Körök] \hfill \\
+		Villanykari címtár, közösségi tevékenységek, értékelések nyilvántartása \\
+		Projektvezetés, új funkciók fejlesztése, alkalmazás üzemeltetése \\
+		Használt technológiák: Git, JavaEE, Hibernate, Wicket, SOAP, PostgreSQL
+		\item[OpenAM és OpenDJ] \hfill \\
+		Egységes, egyszeri bejelentkezés nyújtása a Villanykari webes szolgáltatások számára \\
+		Alkalmazások konfigurációja, üzemeltetése, egyedi modulok fejlesztése
+		\item[MasatMon] \hfill \\
+		A Masat-I által küldött csomagokban lévő információk feldolgozása és megjelenítése \\
+		Projektvezetés, tervezés, fejlesztés alatt \\
+		Használt technológiák: Git, TrueCrypt, REST, SOAP, Glassfish, JavaEE, Math4j, Maven, MySQL
+		\item[Simonyi Címtár] \hfill \\
+		Szakkollégiumi tagságok tárolása, kereshetősge, nyilvántartása, szakkollégium specifikus funkciók \\
+		Projektvezetés, tervezés, fejlesztés, üzemeltetés \\
+		Használt technológiák: Git, Ruby, Rails, JQuery, Shibboleth, Apache2, Passenger, PostgreSQL
+		\item[Printer.sch] \hfill \\
+		Kollégiumban elérhetővé tett nyomtatók listázása \\
+		Alkalmazás tervezése, fejlesztése, üzemeltetése \\
+		Használt technológiák: Git, PHP, Shibboleth, MySQL
+	\end{description}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{AB Connection Kft.}{2009 január - 2010 január}{PHP és JavaScript fejlesztő}{Budapest}
+\item Feladat: egy OO PHP-ban írt saját backoffice rendszer továbbfejlesztése, különös
+tekintettel a könnyű használhatóságra.
+\item A használt technológiák, keretrendszerek: PHP5, MySQL, Subversion, JQuery, ExtJS
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+\begin{rSection}{Motiváció}
+ Szeretnék jobban belemélyedni a Unit tesztek írásába és szeretnék nálam sokkal tapasztaltabbakkal dolgozni, hogy bővítsem az ismereteim.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Egyéb}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Nyelvtudás & Angol (írás, olvasás: haladó) \\
+Programozási nyelvek & Java (+++), JS (++), Ruby (+), C/C++ (+) \\
+Protokollok \& APIs & TCP/IP alapok, XML, JSON, SOAP, REST \\
+Adatbázisok & MySQL, PostgreSQL \\
+Keretrendszerek & JavaEE, Wicket, JQuery \\
+Eszközök & SVN, Git, Vim, NetBeans, Linux, Glassfish, Maven \\
+Internetes profilok, blog & \href{http://vbalazs.me}{http://vbalazs.me}
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
