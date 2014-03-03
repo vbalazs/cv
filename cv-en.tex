@@ -1,0 +1,189 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+\usepackage{enumitem}
+\usepackage[utf8]{inputenc}
+\usepackage[colorlinks=true,urlcolor=blue]{hyperref}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry} % Document margins
+\setdescription{leftmargin=2cm,labelindent=1cm}
+
+\name{Balázs Varga} % Your name
+\address{ Dummy Str. 10. \\ Budapest \\ Hungary } % Your address
+\address{+3600~$\cdot$~000~$\cdot$~0000 \\
+\href{mailto:nospam@nospam.com}{nospam@nospam.com}} % Your phone number and email
+
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Studies}
+
+{\bf Budapest University of Technology and Economics, Hungary} \hfill {\em From September 2008} \\
+Ongoing studies: Software Engineering B.Sc. (expected year of graduation: 2015) \smallskip
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Work experience}
+
+\begin{rSubsection}{Digital Natives Ltd.}
+{2014 - Present}{Junior software engineer}{Budapest}
+\item I design and develop custom applications following Agile methods and I do system integration.
+\item Projects:
+	\begin{description}
+		\item[Elegran] \hfill \\
+		I plan and develop features into the datahub backend for Elegran’s real estate portals. \\
+		Technology: Ruby, Rails, MongoDB, Redis
+	\end{description}
+\end{rSubsection}
+
+\begin{rSubsection}{INBUSS Ltd.}
+{2011 - 2014}{Software developer}{Budapest}
+\item I designed and developed custom applications, customized existing solutions, provided support for the developers.
+\item Projects:
+	\begin{description}
+		\item[Photo printing terminal software] \hfill \\
+		My task was to plan and create a JavaFX client application to run on an Atom based PCs.
+		The main challenge was to solve the communication with low level components such as: photo printer,
+		coin acceptor and coin router. \\
+		Technology: C, C++, libusb, Java, JavaFX, ImageMagick
+		\item[Feasibility study: migration from OpenSSO to OpenAM] \hfill \\
+		I made a study for a Hungarian telecommunnications company on the migration their old Sun OpenSSO based
+		Single-Sign-On solution to ForgeRock OpenAM.
+		One of the key challenges was to handle all dependencies and create a schedule for the project.
+		\item[Negoma webshop] \hfill \\
+		My tasks were to refactor, design and develop new features into a 10 year old project. \\
+		Technology: JavaEE, Hibernate, Tapestry 4, Perl, Javascript, JQuery, XML, Maven, PostgreSQL
+		\item[Sun OpenSSO] \hfill \\
+		I provided support for developers and sysadmins, create and maintain custom modules for
+		a Hungarian telecommunications company. As an expert, I supervised the process of
+		new systems' integration in the SSO federation.
+		\item[DIDb - Driver Identification Database] \hfill \\
+		DIDb is a service to keep records of truck drivers and their shipments.
+		My task was to extend the existing solution with new functionalities.
+		I also migrated the whole project structure from Ant to Maven. \\
+		Technology: JavaEE, Java Webstart, Hibernate, Swing, Maven, Glassfish Metro,
+		PostgreSQL
+	\end{description}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{Simonyi Károly College for Advanced Studies}
+{2009 - 2014}{Project manager, software developer, sysadmin}{Budapest}
+\item 2009 PHP software developer
+\item from 2010 Java, JavaEE developer
+\item 2010-2012 Head of Kir-Dev web developer group
+\item 2012 project manager, developer
+\item 2013-2014 helped on international professional conferences (MLOC.js and RAMP)
+\item Projects:
+	\begin{description}
+		\item[VIR Profile and Groups] \hfill \\
+		It is a register for the university students which also keeps records of
+		their activities in the community. I was the project manager and one of the
+		maintainers. \\
+		\url{https://github.com/kir-dev/korok} \\
+		Technology: JavaEE, Hibernate, Wicket, SOAP, PostgreSQL
+		\item[OpenAM and OpenDJ] \hfill \\
+		We provided Single-Sign-On with OpenAM for the community webapplications on the faculty.
+		I maintained the solution and developed custom modules, helped to integrate
+		new apps into the service.
+		\item[Address Book for internal use] \hfill \\
+	  Participated in architecting and developing a new application for the college
+	  organization which can store alumni data and their work history in the groups.
+	  The major challenge was to make a smart search with a simple UI. \\
+	  \url{https://github.com/kir-dev/simonyi-cimtar} \\
+		Technology: Ruby, Rails, JQuery, Shibboleth SP, Apache2, Passenger, PostgreSQL
+		\item[Printer.sch] \hfill \\
+		It is a service which lists all online printers in the dormitory. \\
+		Based on my idea, we made a simple PHP frontend and a Python client to enable students
+		to share their printers. \\
+		\url{https://github.com/kir-dev/printer} \\
+		Technology: PHP, MySQL, Shibboleth SP
+	\end{description}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\begin{rSubsection}{AB Connection Kft.}
+{2009 - 2010}{PHP and Javascript developer}{Budapest}
+\item I developed and maintained a custom PHP backoffice.
+\item Projects:
+	\begin{description}
+		\item[Toading.com backoffice] \hfill \\
+		Technology: PHP5, MySQL, JQuery, ExtJS
+	\end{description}
+\end{rSubsection}
+
+%------------------------------------------------
+
+\end{rSection}
+
+\begin{rSection}{Objective}
+ I intend to extend and improve my professional knowledge through working with experienced professionals.
+ Also, I would like to make presentations on meetups and conferences about my challenges in my day-to-day work.
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\newpage
+
+\begin{rSection}{Skills}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Language skills & English, Hungarian (native speaker) \\
+Programming languages & Java (+++), Ruby (++), JS (++), C/C++ (+) \\
+Protocols \& APIs & TCP/IP alapok, XML, JSON, SOAP, REST \\
+Databases & MySQL, PostgreSQL, MongoDB, Redis \\
+Frameworks & Rails, AngularJS, JavaEE, Wicket, JQuery \\
+Application servers & JBoss AS, Glassfish, Tomcat, Apache \\
+Tools & git, Sublime, NetBeans, SVN, Linux, Maven
+\end{tabular}
+\end{rSection}
+
+\begin{rSection}{Blog and profiles}
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Blog & \url{http://blog.vbalazs.me} \\
+Github & \url{http://git.vbalazs.me} \\
+More profiles & \url{http://vbalazs.me}
+\end{tabular}
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+%\begin{rSection}{Section Name}
+
+%Section content\ldots
+
+%\end{rSection}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
