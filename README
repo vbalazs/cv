@@ -1,0 +1,3 @@
+# Usage
+
+    $ docker run --rm -it -v $PWD:/data blang/latex pdflatex cv-en.tex
