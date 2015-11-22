@@ -14,7 +14,7 @@
 % notice and this notice are preserved. This file is offered as-is,
 % without any warranty.
 %
-% Created by Trey Hunner and modified by www.latextemplates.com
+% Created by Trey Hunner and modified by www.LaTeXTemplates.com
 %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
@@ -37,17 +37,21 @@
 
 \def \addressSep {$\diamond$} % Set default address separator to a diamond
 
-% One or two address lines can be specified 
+% One, two or three address lines can be specified 
 \let \@addressone \relax
 \let \@addresstwo \relax
+\let \@addressthree \relax
 
-% \address command can be used to set the first and second address (optional)
+% \address command can be used to set the first, second, and third address (last 2 optional)
 \def \address #1{
   \@ifundefined{@addresstwo}{
     \def \@addresstwo {#1}
   }{
-    \def \@addressone {#1}
-  }
+  \@ifundefined{@addressthree}{
+  \def \@addressthree {#1}
+  }{
+     \def \@addressone {#1}
+  }}
 }
 
 % \printaddress is used to style an address line (given as input)
@@ -80,6 +84,8 @@
     \printaddress{\@addressone}}
   \@ifundefined{@addresstwo}{}{ % Print the second address if specified
     \printaddress{\@addresstwo}}
+     \@ifundefined{@addressthree}{}{ % Print the third address if specified
+    \printaddress{\@addressthree}}
 }
 
 %----------------------------------------------------------------------------------------
